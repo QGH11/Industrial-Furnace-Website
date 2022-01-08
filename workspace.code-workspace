@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Industrial-Furnace-Website"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Industrial-Furnace-Website (New)"
+	}
+}

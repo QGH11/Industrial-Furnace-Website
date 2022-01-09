@@ -2,7 +2,8 @@ Industrial Furnace Website
 
 Website Link: </br>
 
-![Alt Text](https://im2.ezgif.com/tmp/ezgif-2-54de8a43a6.gif)
+![ezgif-2-a7ac6dd8b9](https://user-images.githubusercontent.com/76548491/148672846-76a47d41-b94a-4b5e-b3e6-8a2eb8b2c5ce.gif)
+
 
 Credits
 =======

@@ -95,6 +95,7 @@ $(document).mousedown(function (e){
 // ------------------------------------------
 
 // 百度地图API功能
+$(document).ready(function(){
 var fullmap = new BMapGL.Map('map-container');
 fullmap.centerAndZoom(new BMapGL.Point(120.033317, 32.459391), 15);
 fullmap.enableScrollWheelZoom(true);
@@ -102,10 +103,10 @@ fullmap.enableScrollWheelZoom(true);
 var marker = new BMapGL.Marker(new BMapGL.Point(120.033317, 32.459391));
 fullmap.addOverlay(marker);
 // 创建图文信息窗口
-var sContent = `<h4 style='margin:0 0 5px 0;'>天安门</h4>
-    <img style='float:right;margin:0 4px 22px' id='imgDemo' src='/Industrial-Furnace-Website/img/about-img.png' width='139' height='104'/>
+var sContent = `<h4 style='margin:0 0 5px 0;'>江苏金冠炉业</h4>
+    <img style='float:right;margin:0 4px 22px' id='imgDemo' src='images/img/home-intro2.png' width='200' height='104'/>
     <p style='margin:0;line-height:1.5;font-size:13px;text-indent:2em'>
-    天安门坐落在中国北京市中心,故宫的南侧,与天安门广场隔长安街相望,是清朝皇城的大门...
+    江苏金冠炉业有限公司始建于1993年，是专业生产热处理用工业炉、电加热辐射管、加热丝、加热带、耐热钢精密铸造和离心铸造件、各种炉用锻件的企业。
     </p></div>`;
 var infoWindow = new BMapGL.InfoWindow(sContent);
 // marker添加点击事件
@@ -117,5 +118,5 @@ marker.addEventListener('click', function () {
     };
 });
 
-map.enableScrollWheelZoom(true); // 开启鼠标滚轮缩放
-//-----------------------------------------------------
+
+});
